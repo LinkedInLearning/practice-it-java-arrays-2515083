@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
   
   public static Object[] rotateRight(Object[] arr) {
