@@ -3,19 +3,7 @@ import java.util.Arrays;
 public class App {
 
   public static void moveZerosToTheEnd(int[] arr) {
-    int count = 0;
-    // {4, 2, 0, 2}
-    for (int i = 0; i < arr.length; i++) {
-      if (arr[i] != 0) {
-        arr[count] = arr[i];
-        count++;
-      }
-    }
-    // {4, 2, 0, 0}
-    while (count < arr.length) {
-      arr[count] = 0;
-      count++;
-    }
+    
   }
 
   public static void main(String[] args) {
