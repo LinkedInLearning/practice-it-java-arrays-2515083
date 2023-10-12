@@ -1,7 +1,15 @@
+import java.util.Arrays;
+
 public class App {
   
   public static Integer findSecondSmallestItem(Integer[] arr) {
-    return 0;
+    
+    if (arr.length <= 1) {
+      return null;
+    }else {
+      Arrays.sort(arr);
+      return arr[1];
+    }
   }
     
   public static void main(String args[]) {
